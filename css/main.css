@@ -1,0 +1,20 @@
+body {
+	background-color: #4F6D7A;
+}
+
+/*---Below is for responsive design, if a screen is at least 675px wide, it will turn purple (#2B193D).....etc...  The regular site default color (anything less than 675) will be blue (#4F6D7A)...and so on... */
+@media (min-width: 675px) {
+	body {
+		background-color: #2B193D;
+	}
+}
+@media (min-width: 999px) {
+	body {
+		background-color: #8B1E3F;
+	}
+}
+@media (min-width: 1280px) {
+	body {
+		background-color: #2E3532;
+	}
+}	
