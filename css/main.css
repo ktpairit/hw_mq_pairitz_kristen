@@ -1,0 +1,19 @@
+body {
+	background-color: #BCE7FD;
+}
+
+@media (max-width: 1080px) {
+	body {
+		background-color: #59F8E8;
+	}
+}
+@media (max-width: 550px) {
+	body {
+		background-color: #48ACF0;
+	}
+}
+@media (max-width: 400px) {
+	body {
+		background-color: #E01A4F;
+	}
+}
